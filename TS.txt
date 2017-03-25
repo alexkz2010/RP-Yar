@@ -1,4 +1,4 @@
-
+﻿
  (*1*)
 UZD_NU[ZDV_026_1_1].KBO := MOD_DIS_16_1.ERT_CH[4].DIS_VALUE; (* Задвижка № 101 -сигнал от КВО *)
 UZD_NU[ZDV_026_1_1].KBZ := MOD_DIS_16_1.ERT_CH[5].DIS_VALUE; (* Задвижка № 101 -сигнал от КВЗ *)
@@ -7,11 +7,8 @@ UZD_NU[ZDV_026_1_1].MPZ := MOD_DIS_16_1.ERT_CH[7].DIS_VALUE; (* Задвижка
 UZD_NU[ZDV_026_1_1].MB := MOD_DIS_16_1.ERT_CH[8].DIS_VALUE; (* Задвижка № 101 -сработала муфта момента *)
 UZD_NU[ZDV_026_1_1].FAULT := MOD_DIS_16_1.ERT_CH[9].DIS_VALUE; (* Задвижка № 101 -авария *)
 UZD_NU[ZDV_026_1_2].KBO := MOD_DIS_16_1.ERT_CH[10].DIS_VALUE; (* Задвижка № 102 -сигнал от КВО *)
-UZD_NU[ZDV_026_1_2].KBZ := MOD_DIS_16_1.ERT_CH[11].DIS_VALUE; (* Задвижка № 102 -сигнал от КВЗ *)
-UZD_NU[ZDV_026_1_2].MPO := MOD_DIS_16_1.ERT_CH[12].DIS_VALUE; (* Задвижка № 102 -сигнал от МПО *)
-UZD_NU[ZDV_026_1_2].MPZ := MOD_DIS_16_1.ERT_CH[13].DIS_VALUE; (* Задвижка № 102 -сигнал от МПЗ *)
-UZD_NU[ZDV_026_1_2].MB := MOD_DIS_16_1.ERT_CH[14].DIS_VALUE; (* Задвижка № 102 -сработала муфта момента *)
-UZD_NU[ZDV_026_1_2].FAULT := MOD_DIS_16_1.ERT_CH[15].DIS_VALUE; (* Задвижка № 102 -авария *)
+
+
 DP_NU[LC0053].TS_VAL := MOD_DIS_16_1.ERT_CH[0].DIS_VALUE; (*  Затопление колодца КИП №026 *)
 DIAG_ERT16_BMX_OUT_VU[USO2_1_1_A1_ERT4].State_0_15.0 := MOD_DIS_16_1.ERT_CH[0].DIS_VALUE; (*  Затопление колодца КИП №026 *)
 DIAG_ERT16_BMX_OUT_VU[USO2_1_1_A1_ERT4].State_0_15.1 := MOD_DIS_16_1.ERT_CH[1].DIS_VALUE; (*  Резерв *)
